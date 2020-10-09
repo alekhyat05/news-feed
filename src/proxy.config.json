@@ -1,0 +1,8 @@
+{
+    "/cmlink": {
+        "target": "https://www.cbc.ca",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": "true"
+    }
+}

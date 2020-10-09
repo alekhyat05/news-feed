@@ -1,0 +1,40 @@
+.mat-toolbar {
+    justify-content: space-between;
+    background-color: #38656E;
+    color: white;
+}
+
+.mat-card {
+    height: 85%;
+}
+
+.content {
+    padding: 16px;
+}
+
+.card-container {
+    padding: 16px;
+}
+
+.content > mat-card {
+    margin-bottom: 16px;
+    height: inherit;
+}
+
+p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+paragraph-grey {
+    color: gray;
+}
+
+@media screen and (max-width: 600px) {
+    .author {
+        display: none !important;
+    }
+}
